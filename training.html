@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Посмотри Вниз</title>
+    <style>
+      p {
+        /* background-color: rgb(157, 161, 164); */
+      }
+    </style>
+  </head>
+
+  <body>
+    <div style="text-align:center;">
+      <p onmousemove="changeColor()" onmouseout="returnColor()"><strong>Alibi</strong> and <b>Finka</b> eating Katiting</p>
+      <p>Посмотри <em style="color:green">SAT</em> вверх <i>CAT<i>
+      <p>калыбан <span style="color:purple">S.A.T.</span></p>
+      <p><del>A cat eating wiskas with chese.</del> </p>
+      <p><del>БАН</del></p>
+      <p>Разбан </p>
+      <p><small>cat eat</small> brmrcat</p>
+      <img style="float: left;" src="https://vignette.wikia.nocookie.net/rainbowsix/images/4/4b/Lion_-_Full_Body.png/revision/latest/scale-to-width-down/310?cb=20180306155048&path-prefix=ru" alt="lion">
+      <figure>
+        <img src="https://cdn.shopify.com/s/files/1/0081/2839/7427/products/product-image-246704325_300x300.jpg?v=1530844162">
+        <figcaption>Марго</figcaption>
+      </figure>
+      <p style="clear: both;"></p>
+      <a href="https://www.google.com/search?q=lion+rainbow&client=ubuntu&hs=vsZ&channel=fs&biw=1300&bih=946&tbm=isch&source=lnt&tbs=isz:ex,iszw:300,iszh:300#imgrc=DBpQH-XWUynr-M:" target="_blank">
+        <img src="https://cs4.pikabu.ru/images/big_size_comm/2016-07_1/1467492235142620091.jpg" width="500" height="300" >
+      </a>
+      Марго съела чебупель
+    </div>
+
+    <script>
+    function changeColor() {
+      var x = document.getElementsByTagName('p')[0];
+      x.style.backgroundColor = "yellow";
+    }
+
+    function returnColor() {
+      var x = document.getElementsByTagName('p')[0];
+      x.style.backgroundColor = "initial";
+    }
+    </script>
+  </body>
+
+</html>
